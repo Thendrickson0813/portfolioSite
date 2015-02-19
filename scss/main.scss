@@ -1,0 +1,14 @@
+
+@import "_reset.scss";
+
+// Definings
+@import "_variables.scss";
+@import "_mixins.scss";
+
+// Global Styles
+@import "_globals.scss";
+@import "_nav.scss";
+@import "_carousel.scss";
+@import "_sections.scss";
+// Page Specifics
+@import "pages/_home.scss";
