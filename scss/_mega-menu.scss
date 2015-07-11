@@ -1,0 +1,112 @@
+// yamm dropdown menu MEGA MENU
+a {
+    transition: all 200ms ease-out 0s;
+}
+
+.yamm-content {
+    line-height: 1.7;
+    font-size: .92em;
+    h3 {
+        font-size: 1.2em;
+        margin-bottom: 2em;
+        padding-left: 0;
+    }
+    li,
+    p {
+        color: $secondary-color;
+    }
+}
+
+.circled {
+    padding-left: 1em;
+}
+
+.focus-on {
+    padding: 1.5em 1.5em 1.5em 0;
+    img {
+        margin-bottom: 1em;
+        width: 100%;
+    }
+}
+
+.special-pages {
+    padding: 1.5em;
+    line-height: 1.9;
+    padding-bottom: 2em;
+    li {
+        text-indent: -1.5em;
+    }
+    li:before {
+        padding-right: 1em;
+        content: "o";
+        color: $my-button;
+    }
+    h3 {
+        margin-left: -.49em;
+    }
+}
+
+.latest-work {
+    padding: 1.5em;
+    h3 {
+        margin-left: -2.5em
+    }
+    .latest-padding {
+        padding: 0 .2em;
+    }
+    .focus-img {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .work {
+        margin-left: -3em
+    }
+}
+
+.about-us {
+    padding: 1.5em 0 1.5em 1.5em;
+}
+
+.myButton2 {
+    margin-top: 2em;
+    background-color: $my-button;
+    border: 0.0625em solid #077a6d;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Trebuchet MS;
+    font-size: .875em;
+    padding: .625em .9375em;
+    text-decoration: none;
+    text-shadow: 0 0.0625em 0 #3d768a;
+    border: medium none;
+    text-transform: uppercase;
+    transition: all 200ms ease-out 0s;
+    -moz-border-radius: .25em;
+    -webkit-border-radius: .25em;
+    border-radius: .25em;
+    box-shadow: 0px -2px 0px rgba(0, 0, 0, 0.15) inset;
+    color: #FFF !important;
+    font-weight: 700;
+}
+
+.myButton2:hover {
+    text-decoration: none;
+    color: white;
+    background-color: $my-button-hover;
+}
+
+.myButton2:active {
+    position: relative;
+    top: 0.0625em;
+}
+
+@media (max-width: 992px) {
+    .latest-work {
+        padding-left: 4em;
+    }
+    .yamm-content {
+    line-height: 1.7;
+    font-size: .82em;
+}
+}

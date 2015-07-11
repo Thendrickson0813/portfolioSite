@@ -1,35 +1,35 @@
 .sectionOne {
     h1 {
         text-align: center;
-        font-size: 44px;
-        margin-top: 60px;
-        margin-bottom: 30px;
+        font-size: 2.75em;
+        margin-top: 3.75em;
+        margin-bottom: 1.875em;
         color: $primary-color;
     }
     p {
         line-height: 2;
-        margin: 20px 0 70px 0;
+        margin: 1.25em 0 4.375 0;
         color: $primary-color;
-        font-size: 20px;
+        font-size: 1.25em;
         text-align: center;
     }
     h2 {
-        font-size: 20px;
-        margin: 20px 0;
+        font-size: 1.25em;
+        margin: 1.25em 0;
         color: $primary-color;
     }
 }
 .sectionOneParagraphs {
     h2 {
-        font-size: 22px;
+        font-size: 1.375em;
         line-height: 1.5;
-        margin: 20px 0;
+        margin: 1.25em 0;
         color: $primary-color;
     }
     p {
-        font-size: 14px;
+        font-size: .875em;
         line-height: 1.5;
-        margin: 20px 0;
+        margin: 1.25em 0;
         color: $primary-color;
     }
 }
@@ -37,57 +37,57 @@
     padding: 0 10%;
     h1 {
         text-align: center;
-        font-size: 44px;
-        margin-top: 200px;
-        margin-bottom: 30px;
+        font-size: 2.75em;
+        margin-top: 12.5em;
+        margin-bottom: 1.875;
         color: hsla(211, 25%, 42%, 1);
     }
     p {
         color: #506A85;
-        font-size: 20px;
+        font-size: 1.25em;
         text-align: center;
-        margin-bottom: 60px;
+        margin-bottom: 3.75em;
     }
     a   {
         margin: 0 40%;
-        margin-bottom: 80px;
+        margin-bottom: 5em;
     }
 }
 .sectionThree {
     h3 {
         text-align: center;
-        font-size: 20px;
+        font-size: 1.25em;
         line-height: 4;
         color: $primary-color;
     }
     p {
         color: #506A85;
-        font-size: 14px;
+        font-size: .875em;
         text-align: center;
     }
 }
 .sectionThreeBorder {
-    border-left: 1px solid hsla(211, 25%, 42%, .3);
-    border-right: 1px solid hsla(211, 25%, 42%, .3);
-    border-bottom: 1px solid hsla(211, 25%, 42%, .3);
-    height: 130px;
-    width: 570px;
-    height: 130px;
+    border-left: .0625em solid hsla(211, 25%, 42%, .3);
+    border-right: .0625em solid hsla(211, 25%, 42%, .3);
+    border-bottom: .0625em solid hsla(211, 25%, 42%, .3);
+    height: 8.125em;
+    width: 35.625em;
+    height: 8.125em;
     margin-top: 0;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 0.9375em;
+    margin-right: 0.9375em;
 }
 .sectionThreeBorder2 {
-    border-left: 1px solid hsla(211, 25%, 42%, .3);
-    border-right: 1px solid hsla(211, 25%, 42%, .3);
-    border-bottom: 1px solid hsla(211, 25%, 42%, .3);
-    width: 570px;
-    margin-left: 15px;
-    margin-bottom: 100px;
-    height: 130px;
+    border-left: .0625em solid hsla(211, 25%, 42%, .3);
+    border-right: .0625em solid hsla(211, 25%, 42%, .3);
+    border-bottom: .0625em solid hsla(211, 25%, 42%, .3);
+    width: 35.625em;
+    margin-left: 0.9375em;
+    margin-bottom: 6.25em;
+    height: 8.125em;
 }
 #owl-demo2 .item2 {
-    margin: 15px;
+    margin: 0.9375em;
 }
 #owl-demo2 .item2 img {
     display: block;

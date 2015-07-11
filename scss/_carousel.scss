@@ -1,44 +1,68 @@
-    #owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
+    .owl-carousel {
+        .textoverlay {
+            line-height: 1.5;
+            p {
+                font-size: 1.4em;
+                padding-bottom: 40px;
+                color: rgba(255, 255, 255, .4);
+            }
+            h3 {
+                
+            }
+            h1 {
+                font-size: 4.5em;
+                font-weight: 700;
+                padding-bottom: 12px;
+                text-transform: uppercase;
+            }
+        }
     }
-.owl-carousel div h2, .owl-carousel div .textoverlay {
-    position: absolute;
-    color: #FFF;
-    font-size: 12px;
-    display: block;
-}
-.textoverlay h1	{
-	font-size: 50px;
-	font-weight: 700;
-	padding-bottom: 12px;
-}
-.textoverlay {
-	width: 100%;
-    margin: 0 auto;
-    padding-top: 15%;
-	text-align: center;
-	line-height: 1.5;
-	p 	{
-	font-size: 14px;
-	padding-bottom: 40px;
-	color: rgba(255,255,255, .4);
-	}
-}
-.btn 	{
-	background-color: #03ad99;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    border: 1px solid #077a6d;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Trebuchet MS;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 11px 45px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #3d768a;
+    
+    #owl-demo .item img {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .owl-carousel div h2,
+    .owl-carousel div .textoverlay {
+        position: absolute;
+        color: #FFF;
+        font-size: 12px;
+        display: block;
+    }
+    
+    .btn {
+        margin-top: 2em;
+        background-color: $my-button;
+        border: 0.0625em solid #077a6d;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Trebuchet MS;
+        font-size: 1.2em;
+        padding: 1.3em 3em;
+        text-decoration: none;
+        text-shadow: 0 0.0625em 0 #3d768a;
+        border: medium none;
+        text-transform: uppercase;
+        transition: all 200ms ease-out 0s;
+        -moz-border-radius: .25em;
+        -webkit-border-radius: .25em;
+        border-radius: .25em;
+        box-shadow: 0px -2px 0px rgba(0, 0, 0, 0.15) inset;
+        color: #FFF !important;
+        font-weight: 900;
+        &:hover {
+            text-decoration: none;
+            color: white;
+            background-color: $my-button-hover;
+        }
+    }
+
+@media (max-width: 992px) {
+     #owl-demo .item img {
+        display: block;
+        width: 100%;
+        margin: 0, auto;
+    }
 }
