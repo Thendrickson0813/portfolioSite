@@ -83,7 +83,8 @@ body {
 
 .navbar {
   border: none;
-  margin-top: .8em; }
+  margin-top: .8em;
+  margin-bottom: 0; }
 
 .social {
   font-size: .70em;
@@ -168,6 +169,12 @@ a {
   background-image: none !important; }
 
 @media (max-width: 992px) {
+  .hidden-mobile {
+    display: none; }
+
+  .navbar {
+    margin: .12em; }
+
   .navbar-toggle {
     display: block; }
 
@@ -305,6 +312,7 @@ a {
     line-height: 1.7;
     font-size: .82em; } }
 .owl-carousel .textoverlay {
+  position: absolute;
   line-height: 1.5; }
   .owl-carousel .textoverlay p {
     font-size: 1.4em;
@@ -316,17 +324,10 @@ a {
     padding-bottom: 12px;
     text-transform: uppercase; }
 
-#owl-demo .item img {
-  display: block;
-  width: 100%;
-  margin: auto; }
-
-.owl-carousel div h2,
-.owl-carousel div .textoverlay {
-  position: absolute;
-  color: #FFF;
-  font-size: 12px;
-  display: block; }
+#owl-demo .item {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 88vh; }
 
 .btn {
   margin-top: 2em;
@@ -353,11 +354,6 @@ a {
     color: white;
     background-color: rgba(33, 156, 131, 0.9); }
 
-@media (max-width: 992px) {
-  #owl-demo .item img {
-    display: block;
-    width: 100%;
-    margin: 0, auto; } }
 .sectionOne h1 {
   text-align: center;
   font-size: 2.75em;

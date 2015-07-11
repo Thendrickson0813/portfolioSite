@@ -36,6 +36,7 @@
 .navbar {
     border: none;
     margin-top: .8em;
+    margin-bottom: 0;
 }
 
 .social {
@@ -184,6 +185,12 @@ a {
 //     margin-bottom: 0;
 // }
 @media (max-width: 992px) {
+    .hidden-mobile {
+        display: none;
+    }
+    .navbar {
+        margin: .12em;
+    }
     .navbar-toggle {
         display: block;
     }

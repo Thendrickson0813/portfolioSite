@@ -1,14 +1,13 @@
     .owl-carousel {
         .textoverlay {
+            position: absolute;
             line-height: 1.5;
             p {
                 font-size: 1.4em;
                 padding-bottom: 40px;
                 color: rgba(255, 255, 255, .4);
             }
-            h3 {
-                
-            }
+            h3 {}
             h1 {
                 font-size: 4.5em;
                 font-weight: 700;
@@ -18,20 +17,19 @@
         }
     }
     
-    #owl-demo .item img {
-        display: block;
-        width: 100%;
-        margin: auto;
+    #owl-demo .item {
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 88vh;
     }
     
-    .owl-carousel div h2,
-    .owl-carousel div .textoverlay {
-        position: absolute;
-        color: #FFF;
-        font-size: 12px;
-        display: block;
-    }
-    
+    // .owl-carousel div h2,
+    // .owl-carousel div .textoverlay {
+    //     position: absolute;
+    //     color: #FFF;
+    //     font-size: 12px;
+    //     display: block;
+    // }
     .btn {
         margin-top: 2em;
         background-color: $my-button;
@@ -58,11 +56,7 @@
             background-color: $my-button-hover;
         }
     }
-
-@media (max-width: 992px) {
-     #owl-demo .item img {
-        display: block;
-        width: 100%;
-        margin: 0, auto;
+    
+    @media (max-width: 992px) {
+        #owl-demo .item img {}
     }
-}
