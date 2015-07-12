@@ -11,7 +11,7 @@ navigation : false, // Show next and prev buttons
 slideSpeed : 600,
 paginationSpeed : 400,
 singleItem:true,
-autoPlay: true, 
+// autoPlay: true, 
 // "singleItem:true" is a shortcut for:
  items : 1,
 // itemsDesktop : false,

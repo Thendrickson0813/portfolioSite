@@ -311,33 +311,97 @@ a {
   .yamm-content {
     line-height: 1.7;
     font-size: .82em; } }
+.owl-controls.clickable {
+  margin: 0 auto;
+  background-color: white;
+  width: 9em;
+  height: 3em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  z-index: 9999;
+  opacity: 0; }
+
+.owl-carousel:hover .owl-controls.clickable {
+  opacity: 1; }
+.owl-carousel .item {
+  padding: 0 .8em; }
 .owl-carousel .textoverlay {
   position: absolute;
-  line-height: 1.5; }
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.4); }
   .owl-carousel .textoverlay p {
-    font-size: 1.4em;
-    padding-bottom: 40px;
-    color: rgba(255, 255, 255, 0.4); }
+    font-size: 1.3em;
+    padding-bottom: 1.2em; }
   .owl-carousel .textoverlay h1 {
-    font-size: 4.5em;
+    color: #FFF;
+    font-size: 3.8em;
     font-weight: 700;
-    padding-bottom: 12px;
+    padding-bottom: .5em;
     text-transform: uppercase; }
+.owl-carousel .change-text-white {
+  color: white !important; }
+.owl-carousel .focus-text-fix {
+  margin-top: 5em; }
+  .owl-carousel .focus-text-fix p {
+    color: white; }
+.owl-carousel .showcase-text-fix {
+  margin-top: 5em; }
+  .owl-carousel .showcase-text-fix p {
+    color: rgba(255, 255, 255, 0.4); }
+
+.owl-carousel .color-text p {
+  color: #506a85; }
+
+.background-highlight > h1 > span:first-child {
+  background-color: #506a85;
+  line-height: 1.5em;
+  padding: 0 .5em; }
+
+.background-highlight > h1 > span:first-child > span:nth-child(2) {
+  padding-left: 0;
+  background-color: #506a85;
+  margin-left: .5em; }
 
 #owl-demo .item {
   background-position: center;
   background-repeat: no-repeat;
   height: 88vh; }
 
+.center-div {
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.owl-carousel {
+  text-align: center;
+  cursor: default; }
+
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+  cursor: pointer; }
+
+.owl-theme .owl-controls .owl-page span {
+  background-color: #506a85;
+  color: white; }
+
 .btn {
-  margin-top: 2em;
+  margin-top: 0;
   background-color: rgba(35, 164, 138, 0.9);
   border: 0.0625em solid #077a6d;
   display: inline-block;
   cursor: pointer;
   font-family: Trebuchet MS;
-  font-size: 1.2em;
-  padding: 1.3em 3em;
+  font-size: 1em;
+  padding: 1em 1.6em;
   text-decoration: none;
   text-shadow: 0 0.0625em 0 #3d768a;
   border: medium none;
@@ -354,6 +418,35 @@ a {
     color: white;
     background-color: rgba(33, 156, 131, 0.9); }
 
+.owl-pagination {
+  background-color: white;
+  margin: 0 auto;
+  width: 10em;
+  padding-bottom: 3.5em;
+  padding-top: .8em;
+  z-index: 9999; }
+
+@media (max-width: 320px) {
+  .owl-carousel .textoverlay p {
+    font-size: 1em;
+    letter-spacing: .011em; }
+  .owl-carousel .textoverlay h1 {
+    font-size: 2em; } }
+@media (min-width: 320px) and (max-width: 480px) {
+  .owl-carousel .textoverlay p {
+    font-size: 1.2em; }
+  .owl-carousel .textoverlay h1 {
+    font-size: 2.4em; } }
+@media (min-width: 480px) and (max-width: 768px) {
+  .owl-carousel .textoverlay p {
+    font-size: 1.1em; }
+  .owl-carousel .textoverlay h1 {
+    font-size: 2.5em; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  .owl-carousel .textoverlay p {
+    font-size: 1.3em; }
+  .owl-carousel .textoverlay h1 {
+    font-size: 3.2em; } }
 .sectionOne h1 {
   text-align: center;
   font-size: 2.75em;
