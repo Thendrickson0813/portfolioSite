@@ -1,5 +1,6 @@
 // $background: rgba(47, 64, 82, 1);
 $primary-color: rgba(80, 106, 133, 1);
+$primary-color-light: lighten( $primary-color, 15% );
 $secondary-color: lighten( $primary-color, 20% );
 $dropdown-background: rgba(35, 164, 138, .9);
 $dropdown-background-border: lighten( $primary-color, 50% );

@@ -1,44 +1,43 @@
 .sectionOne {
+    letter-spacing: .01em;
+    padding: 0 2.5em;
     h1 {
         text-align: center;
         font-size: 2.75em;
-        margin-top: 3.75em;
-        margin-bottom: 1.875em;
+        margin-top: 1.75em;
+        margin-bottom: .8em;
         color: $primary-color;
     }
     p {
-        line-height: 2;
-        margin: 1.25em 0 4.375 0;
-        color: $primary-color;
+        color: $primary-color-light;
         font-size: 1.25em;
         text-align: center;
-    }
-    h2 {
-        font-size: 1.25em;
-        margin: 1.25em 0;
-        color: $primary-color;
+        padding: 0;
+        margin: 0;
     }
 }
+
 .sectionOneParagraphs {
+    margin-top:  5em;
     h2 {
-        font-size: 1.375em;
+        font-size: 1.675em;
         line-height: 1.5;
-        margin: 1.25em 0;
         color: $primary-color;
     }
     p {
-        font-size: .875em;
+        font-size: .975em;
         line-height: 1.5;
         margin: 1.25em 0;
-        color: $primary-color;
+        color: $primary-color-light;
     }
 }
+
 .sectionTwo {
     padding: 0 10%;
     h1 {
         text-align: center;
         font-size: 2.75em;
-        margin-top: 12.5em;
+        margin-top: 4em;
         margin-bottom: 1.875;
         color: hsla(211, 25%, 42%, 1);
     }
@@ -48,11 +47,12 @@
         text-align: center;
         margin-bottom: 3.75em;
     }
-    a   {
+    a {
         margin: 0 40%;
         margin-bottom: 5em;
     }
 }
+
 .sectionThree {
     h3 {
         text-align: center;
@@ -66,6 +66,7 @@
         text-align: center;
     }
 }
+
 .sectionThreeBorder {
     border-left: .0625em solid hsla(211, 25%, 42%, .3);
     border-right: .0625em solid hsla(211, 25%, 42%, .3);
@@ -77,6 +78,7 @@
     margin-left: 0.9375em;
     margin-right: 0.9375em;
 }
+
 .sectionThreeBorder2 {
     border-left: .0625em solid hsla(211, 25%, 42%, .3);
     border-right: .0625em solid hsla(211, 25%, 42%, .3);
@@ -86,11 +88,110 @@
     margin-bottom: 6.25em;
     height: 8.125em;
 }
+
 #owl-demo2 .item2 {
     margin: 0.9375em;
 }
+
 #owl-demo2 .item2 img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+@media (max-width: 320px) {}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .sectionOne {
+        padding: 0 1em;
+        h1 {
+            margin-top: .8em;
+            font-size: 2.1em;
+        }
+        p {
+            font-size: 1.169em;
+            text-align: center;
+        }
+    }
+    .sectionOneParagraphs {
+        margin-top: 4em;
+        img {
+            float: right;
+            margin: 0 .5em 1em 1em;
+            padding: 0;
+        }
+        h2 {
+            font-size: 1.675em;
+        }
+        p {
+            font-size: .875em;
+            letter-spacing: .04em;
+            line-height: 1.8;
+            margin: 1.25em 0;
+        }
+    }
+}
+
+@media (min-width: 480px) and (max-width: 992px) {
+    .sectionOne {
+        padding: 0 1em;
+        h1 {
+            margin-top: .8em;
+            font-size: 2.1em;
+        }
+        p {
+            font-size: 1.169em;
+            text-align: center;
+        }
+    }
+    .sectionOneParagraphs {
+        margin-top: 4em;
+        img {
+            float: right;
+            margin: 0 .5em 1em 1em;
+            padding: 0;
+        }
+        h2 {
+            font-size: 1.675em;
+        }
+        p {
+            font-size: .875em;
+            letter-spacing: .04em;
+            line-height: 1.8;
+            margin: 1.25em 0;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .sectionOne {
+        padding: 0 2em;
+        h1 {
+            margin-top: .8em;
+            font-size: 2.8em;
+        }
+        p {
+            font-size: 1.3em;
+            text-align: center;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .sectionOne {
+        padding: 0 1em;
+        h1 {
+            margin-top: .8em;
+            font-size: 2.8em;
+        }
+        p {
+            font-size: 1.3em;
+            text-align: center;
+        }
+    }
+    .sectionOneParagraphs {
+        h2 img {
+            display: none;
+        }
+    }
 }

@@ -49,7 +49,8 @@ table {
 
 body {
   color: #506a85;
-  font-size: 1em; }
+  font-size: 1em;
+  line-height: 1.6; }
 
 .hidden-xs {
   border-bottom: 0.0625em solid #e5eaef; }
@@ -390,8 +391,7 @@ a {
   cursor: pointer; }
 
 .owl-theme .owl-controls .owl-page span {
-  background-color: #506a85;
-  color: white; }
+  background-color: #506a85; }
 
 .btn {
   margin-top: 0;
@@ -447,40 +447,40 @@ a {
     font-size: 1.3em; }
   .owl-carousel .textoverlay h1 {
     font-size: 3.2em; } }
-.sectionOne h1 {
-  text-align: center;
-  font-size: 2.75em;
-  margin-top: 3.75em;
-  margin-bottom: 1.875em;
-  color: #506a85; }
-.sectionOne p {
-  line-height: 2;
-  margin: 1.25em 0 4.375 0;
-  color: #506a85;
-  font-size: 1.25em;
-  text-align: center; }
-.sectionOne h2 {
-  font-size: 1.25em;
-  margin: 1.25em 0;
-  color: #506a85; }
+.sectionOne {
+  letter-spacing: .01em;
+  padding: 0 2.5em; }
+  .sectionOne h1 {
+    text-align: center;
+    font-size: 2.75em;
+    margin-top: 1.75em;
+    margin-bottom: .8em;
+    color: #506a85; }
+  .sectionOne p {
+    color: #7590ac;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 0;
+    margin: 0; }
 
-.sectionOneParagraphs h2 {
-  font-size: 1.375em;
-  line-height: 1.5;
-  margin: 1.25em 0;
-  color: #506a85; }
-.sectionOneParagraphs p {
-  font-size: .875em;
-  line-height: 1.5;
-  margin: 1.25em 0;
-  color: #506a85; }
+.sectionOneParagraphs {
+  margin-top: 5em; }
+  .sectionOneParagraphs h2 {
+    font-size: 1.675em;
+    line-height: 1.5;
+    color: #506a85; }
+  .sectionOneParagraphs p {
+    font-size: .975em;
+    line-height: 1.5;
+    margin: 1.25em 0;
+    color: #7590ac; }
 
 .sectionTwo {
   padding: 0 10%; }
   .sectionTwo h1 {
     text-align: center;
     font-size: 2.75em;
-    margin-top: 12.5em;
+    margin-top: 4em;
     margin-bottom: 1.875;
     color: #506a86; }
   .sectionTwo p {
@@ -529,5 +529,73 @@ a {
   display: block;
   width: 100%;
   height: auto; }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .sectionOne {
+    padding: 0 1em; }
+    .sectionOne h1 {
+      margin-top: .8em;
+      font-size: 2.1em; }
+    .sectionOne p {
+      font-size: 1.169em;
+      text-align: center; }
+
+  .sectionOneParagraphs {
+    margin-top: 4em; }
+    .sectionOneParagraphs img {
+      float: right;
+      margin: 0 .5em 1em 1em;
+      padding: 0; }
+    .sectionOneParagraphs h2 {
+      font-size: 1.675em; }
+    .sectionOneParagraphs p {
+      font-size: .875em;
+      letter-spacing: .04em;
+      line-height: 1.8;
+      margin: 1.25em 0; } }
+@media (min-width: 480px) and (max-width: 992px) {
+  .sectionOne {
+    padding: 0 1em; }
+    .sectionOne h1 {
+      margin-top: .8em;
+      font-size: 2.1em; }
+    .sectionOne p {
+      font-size: 1.169em;
+      text-align: center; }
+
+  .sectionOneParagraphs {
+    margin-top: 4em; }
+    .sectionOneParagraphs img {
+      float: right;
+      margin: 0 .5em 1em 1em;
+      padding: 0; }
+    .sectionOneParagraphs h2 {
+      font-size: 1.675em; }
+    .sectionOneParagraphs p {
+      font-size: .875em;
+      letter-spacing: .04em;
+      line-height: 1.8;
+      margin: 1.25em 0; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  .sectionOne {
+    padding: 0 2em; }
+    .sectionOne h1 {
+      margin-top: .8em;
+      font-size: 2.8em; }
+    .sectionOne p {
+      font-size: 1.3em;
+      text-align: center; } }
+@media (min-width: 992px) {
+  .sectionOne {
+    padding: 0 1em; }
+    .sectionOne h1 {
+      margin-top: .8em;
+      font-size: 2.8em; }
+    .sectionOne p {
+      font-size: 1.3em;
+      text-align: center; }
+
+  .sectionOneParagraphs h2 img {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
