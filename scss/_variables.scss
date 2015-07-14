@@ -1,7 +1,9 @@
 // $background: rgba(47, 64, 82, 1);
 $primary-color: rgba(80, 106, 133, 1);
-$primary-color-light: lighten( $primary-color, 15% );
+$primary-color-light: lighten( $primary-color, 13% );
 $secondary-color: lighten( $primary-color, 20% );
+$bottom-nav-background-dark: lighten( $primary-color, 0% );
+$bottom-nav-background-color-light: darken( $primary-color, 18% );
 $dropdown-background: rgba(35, 164, 138, .9);
 $dropdown-background-border: lighten( $primary-color, 50% );
 $my-button: lighten( $dropdown-background, 0% );

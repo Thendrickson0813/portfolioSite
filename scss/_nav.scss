@@ -1,9 +1,11 @@
 .hidden-xs {
     border-bottom: .0625em solid $dropdown-background-border;
 }
+
 .navbar-default {
     background-color: transparent;
 }
+
 .navbar-default .navbar-toggle {
     background-color: $my-button;
     &:hover {
@@ -145,45 +147,88 @@ a {
     background-image: none !important;
 }
 
-// // Bottom Navbar area
-// .bottomNav {
-//     background-color: $background;
-//     line-height: 1.5;
-//     font-size: 14px;
-//     color: $secondary-color;
-//     padding-bottom: 60px;
-//     h2 {
-//         font-size: 18px;
-//         margin: 90px 0 20px 0;
-//     }
-//     p {
-//         margin: 10px 0 10px 0;
-//     }
-// }
-// .bottomOne img {
-//     height: 30px;
-//     background-color: $background;
-//     color: $primary-color
-// }
-// .bottomMenu {
-//     vertical-align: middle;
-//     font-size: 12px;
-//     a {
-//         float: right;
-//     }
-//     li a {
-//         padding-left: 18px;
-//     }
-// }
-// .bottomFooter {
-//     background-color: rgba(40, 54, 69, 1);
-//     border-bottom: none;
-//     padding-top: 20px;
-// }
-// .fixBottomHeader {
-//     border: none;
-//     margin-bottom: 0;
-// }
+// Bottom Navbar area
+.bottomNav {
+    background-color: $bottom-nav-background-color-light;
+    color: $secondary-color;
+    line-height: 1.5;
+    font-size: .8em;
+    padding-bottom: 4em;
+    h2 {
+        color: white;
+        font-size: 18px;
+        margin: 90px 0 20px 0;
+        text-transform: uppercase;
+    }
+    p {
+        margin: 10px 0 10px 0;
+    }
+}
+
+.bottomOne {
+   
+    a {
+        color: $secondary-color;
+        font-size: 1.1em;
+        font-weight: 900;
+        text-decoration: none;
+        border: none;
+        &:hover {
+            color: $dropdown-background;
+        }
+
+    }
+    img {
+        height: 30px;
+        background-color: transparent;
+        color: $primary-color
+    }
+}
+.bottomTwo {
+    
+    img {
+        margin-left: -1.2em;
+        width: 100%
+    }
+}
+.bottomThree {
+a {
+    color: $secondary-color;
+    display: block;
+    text-decoration: none;
+}
+}
+.bottomMenu {
+    vertical-align: middle;
+    font-size: 12px;
+    li {
+        float: left;
+    }
+    a {
+        color: $secondary-color !important;
+        display: block;
+        padding-left: 18px;
+    }
+}
+
+.bottomFooter {
+    background-color: rgba(40, 54, 69, 1);
+    border-bottom: none;
+    padding: 1.8em 0;
+    .info {
+        vertical-align: middle;
+        font-size: 12px;
+        a {
+            color: $secondary-color !important;
+        }
+    }
+}
+
+.fixBottomHeader {
+    border: none;
+    margin-bottom: 0;
+}
+
 @media (max-width: 992px) {
     .hidden-mobile {
         display: none;
