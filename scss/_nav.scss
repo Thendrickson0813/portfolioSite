@@ -1,3 +1,6 @@
+.dropdown-backdrop{
+    position: static;
+}
 .hidden-xs {
     border-bottom: .0625em solid $dropdown-background-border;
 }
@@ -8,7 +11,10 @@
 
 .navbar-default .navbar-toggle {
     background-color: $my-button;
-    &:hover {
+
+    &:hover,
+    &:focus,
+    &:active {
         background-color: $my-button-hover;
     }
 }
@@ -38,7 +44,7 @@
 .navbar {
     border: none;
     margin-top: .8em;
-    margin-bottom: 0;
+    margin-bottom: .5em;
 }
 
 .social {
@@ -49,7 +55,9 @@
         height: 1em;
     }
     a {
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
             text-decoration: none;
         }
     }
@@ -104,6 +112,14 @@
     -moz-border-right-colors: none;
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
+    -webkit-border-top-colors: none;
+    -webkit-border-right-colors: none;
+    -webkit-border-bottom-colors: none;
+    -webkit-border-left-colors: none;
+    border-top-colors: none;
+    border-right-colors: none;
+    border-bottom-colors: none;
+    border-left-colors: none;
     border-image: none;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
@@ -131,7 +147,9 @@ a {
     font-size: 0.9125em;
     padding: 1em;
     margin-top: 0;
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
         color: white;
     }
 }
@@ -152,12 +170,13 @@ a {
     background-color: $bottom-nav-background-color-light;
     color: $secondary-color;
     line-height: 1.5;
+    letter-spacing: .1em;
     font-size: .8em;
     padding-bottom: 4em;
     h2 {
         color: white;
         font-size: 18px;
-        margin: 90px 0 20px 0;
+        margin: 4em 0 20px 0;
         text-transform: uppercase;
     }
     p {
@@ -166,38 +185,91 @@ a {
 }
 
 .bottomOne {
-   
+    padding: 0 2em;
     a {
         color: $secondary-color;
         font-size: 1.1em;
         font-weight: 900;
         text-decoration: none;
         border: none;
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
             color: $dropdown-background;
         }
-
-    }
-    img {
-        height: 30px;
-        background-color: transparent;
-        color: $primary-color
     }
 }
+
 .bottomTwo {
-    
+    padding: 0 2em;
     img {
-        margin-left: -1.2em;
         width: 100%
     }
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-xs-1,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9 {
+        padding: .2em .2em;
+    }
 }
+
 .bottomThree {
-a {
-    color: $secondary-color;
-    display: block;
-    text-decoration: none;
+    padding: 0 2em;
+    a {
+        color: $secondary-color;
+        display: block;
+        text-decoration: none;
+    }
 }
+
+.bottomFour {
+    padding: 0 2em;
 }
+
 .bottomMenu {
     vertical-align: middle;
     font-size: 12px;
@@ -261,6 +333,7 @@ a {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         width: 100%;
+
     }
     .navbar-brand {
         float: none;
@@ -281,8 +354,16 @@ a {
         background: $dropdown-background;
         padding-left: 3em;
     }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        border-bottom: 1px solid $dropdown-background-border;
+    }
     .navbar-toggle {
         margin: 1.2em auto;
+    }
+    .navbar-nav > li > a {
+        border: medium none;
+        border-bottom: 1px solid $dropdown-background-border;
+
     }
 }
 
